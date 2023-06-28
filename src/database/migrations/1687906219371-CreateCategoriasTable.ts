@@ -19,16 +19,6 @@ export class CreateCategoriasTable1687906219371 implements MigrationInterface {
                         length: '100',
                         isNullable: false,
                     },
-                    {
-                        name: 'created_at',
-                        type: 'timestamp',
-                        default: 'now()',
-                    },
-                    {
-                        name: 'updated_at',
-                        type: 'timestamp',
-                        default: 'now()',
-                    },
                 ],
             })
         );
